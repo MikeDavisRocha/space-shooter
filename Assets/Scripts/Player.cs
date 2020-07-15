@@ -67,7 +67,7 @@ public class Player : MonoBehaviour
 
     public int GetHealth()
     {
-        return health;
+        return health >=0 ? health : 0;
     }   
 
     private void Move()
